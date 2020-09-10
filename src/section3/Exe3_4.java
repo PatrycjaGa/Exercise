@@ -19,6 +19,13 @@ public class Exe3_4 {
         }
     }
 
-    
+    public static void replaceLetters(){
+        System.out.println();
+        String[] replaceArray = new String[13];
+        for (int i = 0; i < replaceArray.length; i++) {
+            replaceArray[i] = arrayWithLetters()[replaceArray.length -1 -i];
+            System.out.print("[" + replaceArray[i] + "]" + ",");
+        }
+    }
 
 }
