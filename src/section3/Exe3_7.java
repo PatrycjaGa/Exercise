@@ -29,7 +29,7 @@ public class Exe3_7 {
     }
 
 
-    public static void showArray() {
+    public static void showArray(){
         System.out.println();
         for (int i = 0; i < arraysInteger().length; i++) {
             System.out.print("[" + arraysInteger()[i] + "]" + ",");
